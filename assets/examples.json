@@ -1,0 +1,72 @@
+[
+  {
+    "id": "T02",
+    "image": "assets/examples/T02.png",
+    "microscopy": "Optical",
+    "material": "Iron / steel",
+    "image_key": "P-245::images/245_M007.png"
+  },
+  {
+    "id": "T05",
+    "image": "assets/examples/T05.png",
+    "microscopy": "Optical",
+    "material": "Copper-based",
+    "image_key": "P-245::images/245_M020.png"
+  },
+  {
+    "id": "T07",
+    "image": "assets/examples/T07.png",
+    "microscopy": "SEM",
+    "material": "Iron / steel",
+    "image_key": "P-215::images/215_M016.png"
+  },
+  {
+    "id": "T08",
+    "image": "assets/examples/T08.png",
+    "microscopy": "SEM",
+    "material": "Ores / minerals / rocks",
+    "image_key": "P-432::images/432_M001.png"
+  },
+  {
+    "id": "T01",
+    "image": "assets/examples/T01.png",
+    "microscopy": "Optical",
+    "material": "Copper-based",
+    "image_key": "P-465::images/465_M015.png"
+  },
+  {
+    "id": "T03",
+    "image": "assets/examples/T03.png",
+    "microscopy": "Optical",
+    "material": "Iron / steel",
+    "image_key": "P-424::images/424_M003.png"
+  },
+  {
+    "id": "T04",
+    "image": "assets/examples/T04.png",
+    "microscopy": "Optical",
+    "material": "Iron / steel",
+    "image_key": "P-208::images/208_M017.png"
+  },
+  {
+    "id": "T06",
+    "image": "assets/examples/T06.png",
+    "microscopy": "SEM",
+    "material": "Slag / matte / speiss",
+    "image_key": "P-77::images/77_M023.png"
+  },
+  {
+    "id": "T09",
+    "image": "assets/examples/T09.png",
+    "microscopy": "SEM",
+    "material": "Ores / minerals / rocks",
+    "image_key": "P-478::images/478_M025.png"
+  },
+  {
+    "id": "T10",
+    "image": "assets/examples/T10.png",
+    "microscopy": "SEM",
+    "material": "Ceramics / refractories",
+    "image_key": "P-477::images/477_M014.png"
+  }
+]

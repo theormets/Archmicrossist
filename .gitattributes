@@ -1,0 +1,5 @@
+* text=auto
+*.onnx -text -filter -diff -merge
+*.f32 -text -filter -diff -merge
+*.png -text
+*.jpg -text

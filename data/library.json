@@ -1,0 +1,40 @@
+{
+  "metadata_file": "data/references.json",
+  "metadata_sha256": "8a57863bd11b9bb672b789f6560dc1af428865296c3e1e3eb9d98e98608ba44b",
+  "embeddings_file": "reference_embeddings.f32",
+  "embeddings_sha256": "818f0691c5856feedbe0ac41d97582f8ea8f4606f6c48a81d98e3c09a648f5b5",
+  "shape": [
+    2371,
+    384
+  ],
+  "processor": {
+    "crop_size": {
+      "height": 224,
+      "width": 224
+    },
+    "do_center_crop": true,
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "image_processor_type": "BitImageProcessor",
+    "image_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "size": {
+      "shortest_edge": 256
+    }
+  },
+  "model_file": "models/metallotrace_dinov2_small_f2ca3b39879c.onnx",
+  "model_sha256": "f2ca3b39879cac317d017decfd297cf6619ddc9474a41893219ddb80f9a12679",
+  "display_previews": "JPEG quality90 maximum1200x1200; originals and embeddings unchanged"
+}
