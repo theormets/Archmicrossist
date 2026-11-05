@@ -12,7 +12,7 @@ async function binary(url, label, stream=false, expectedSha='') {
   let modelCache;
   if(expectedSha && globalThis.caches){
     try{
-      modelCache=await caches.open('metallotrace-verified-models-v1');
+      modelCache=await caches.open('archmicrossist-verified-models-v1');
       const saved=await modelCache.match(url);
       if(saved){
         const bytes=await saved.arrayBuffer();

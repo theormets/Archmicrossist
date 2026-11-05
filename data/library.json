@@ -34,7 +34,7 @@
       "shortest_edge": 256
     }
   },
-  "model_file": "models/metallotrace_dinov2_small_f2ca3b39879c.onnx",
+  "model_file": "models/archmicrossist_dinov2_small_f2ca3b39879c.onnx",
   "model_sha256": "f2ca3b39879cac317d017decfd297cf6619ddc9474a41893219ddb80f9a12679",
   "display_previews": "JPEG quality90 maximum1200x1200; originals and embeddings unchanged"
 }

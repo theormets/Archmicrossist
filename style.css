@@ -45,3 +45,8 @@
 .search-intro .scope-note{border-left:2px solid #b77950;padding:8px 12px;background:#f3e9da66;color:#6a5b4d;font-size:11px;margin-bottom:0}
 #upload-prompt strong{max-width:100%;overflow-wrap:anywhere;line-height:1.4;font-size:21px}
 @media(max-width:560px){.scope-label{font-size:9px;letter-spacing:.3px;margin-top:10px}.search-intro h3{font-size:21px}#upload-prompt strong{font-size:18px}}
+
+/* Longer Archmicrossist title stays within the hero on small screens. */
+.hero-copy h1{font-size:clamp(32px,4.1vw,59px)}
+@media(max-width:1120px){.hero-copy h1{font-size:42px}}
+@media(max-width:560px){.hero-copy h1{font-size:clamp(25px,8vw,37px);letter-spacing:-1.2px}}

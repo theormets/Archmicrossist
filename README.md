@@ -1,15 +1,15 @@
-# MetalloTrace
+# Archmicrossist
 
 **Visual reference search for archaeometallurgy.**  
 A research tool by [Mayon Padai](https://mayonpadai.github.io/).
 
-**[Open MetalloTrace](https://theormets.github.io/MetalloTrace/)**
+**[Open Archmicrossist](https://theormets.github.io/Archmicrossist/)**
 
 ## What it does
 
 Upload a microscope image to explore visually similar published references, their source-reported material and sample information, and original paper details. The reference collection includes archaeological metals, corrosion, slags, ceramics and associated materials, alongside some supporting or modern comparative references.
 
-MetalloTrace supports literature discovery and expert comparison. It is designed for archaeometallurgy reference search; it is not a general-purpose metallurgy identification service. A retrieved reference does not establish the uploaded specimen's composition, age, provenance or identity.
+Archmicrossist supports literature discovery and expert comparison. It is designed for archaeometallurgy reference search; it is not a general-purpose metallurgy identification service. A retrieved reference does not establish the uploaded specimen's composition, age, provenance or identity.
 
 ## Using the tool
 

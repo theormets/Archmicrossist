@@ -1,7 +1,7 @@
 import {decodeRGB,padRGB,tensorFromRGB} from './preprocess.js';
-import {binary,json,sha,normalize,clsVector} from './runtime-core.js?v=10';
+import {binary,json,sha,normalize,clsVector} from './runtime-core.js?v=archmicrossist1';
 const $=id=>document.getElementById(id),say=s=>{$('status').textContent=s;};
-const MODEL='./models/metallotrace_dinov2_small_f2ca3b39879c.onnx';
+const MODEL='./models/archmicrossist_dinov2_small_f2ca3b39879c.onnx';
 const MODEL_SHA='f2ca3b39879cac317d017decfd297cf6619ddc9474a41893219ddb80f9a12679';
 let dataPromise,encoderPromise,file,previewUrl,exportRows=[];
 function node(tag,className,text){const n=document.createElement(tag);if(className)n.className=className;if(text!==undefined)n.textContent=text;return n;}
@@ -115,7 +115,7 @@ $('download').addEventListener('click',()=>{
   if(!exportRows.length)return;const fields=Object.keys(exportRows[0]);
   function cell(v){let s=String(v??'');if(/^[=+\-@]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';}
   const csv='\uFEFF'+[fields.map(cell).join(','),...exportRows.map(r=>fields.map(k=>cell(r[k])).join(','))].join('\r\n');
-  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='MetalloTrace_matches.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='Archmicrossist_matches.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
 function selectTab(tab){
   const url=tab==='url';$('file-panel').hidden=url;$('url-panel').hidden=!url;
